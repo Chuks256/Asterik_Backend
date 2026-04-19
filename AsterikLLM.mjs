@@ -24,10 +24,6 @@ class AsterikLLM {
             role: "user",
             content: [
               {
-                type: "text",
-                text: "Analyze this image. Check positioning and read content.",
-              },
-              {
                 type: "image_url",
                 image_url: {
                   url: prompt,
