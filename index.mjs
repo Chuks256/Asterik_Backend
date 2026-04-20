@@ -17,6 +17,7 @@ app.use(cors());
 
 app.post("/api/v1/scanDocument", routeHelper.scanDocument);
 app.get("/api/v1/checkHealth", routeHelper.checkHealth);
+app.post("/api/v1/processTTS", routeHelper.processTTS);
 
 app.listen(port, () => {
   console.log("Listening for incoming connection");
